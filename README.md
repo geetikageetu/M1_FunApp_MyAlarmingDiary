@@ -2,6 +2,12 @@
 In this console application, you can add, view, edit and delete records. Records can be added with many information such as duration of task, name, address, time and date. File handling has been effectively used to keep the records.
 
 # 1_Requirement
+*personal Use:User can use it for their daily personal use . He can write or save daily tasks and meeting.
+*For maintaining data: we can use it to save our monthly expenses.Grosarry or paying bills data .
+*Office work: we can maintain or office credentials .
+*important data : students, adults can use it for inhence thair hobbies with security so no one can see their info .
+
+# 2_Design
 In this we need to have log in Account . We use file management system to save our files and racod.
 we will use google calander  as to create a to do list.
 The basic user-defined functions used in this project are listed below:
@@ -11,10 +17,6 @@ void viewrecord() – to view added record in list
 void editrecord() – to modify and update an added record
 void editpassword() – to modify/change a password
 void deleterecord() – to delete or remove a record permanently from system file.
-# 2_Design
-In this project, you need to enter a password to view, edit or delete record. Password is not required to view the main menu or to add record. We have used password in other mini projects in Code with C; what’s little different in this project is that you can edit the password within the application i.e., after executing or upon running the project.
-
-Your password is currently ‘Enter’ for this mini project. Don’t type e-n-t-e-r. Press the Enter key
 # 3_Implementation
 #include"stdio.h"
 #include"stdlib.h"
@@ -1311,5 +1313,38 @@ Click on ok	Show Records	Show Records	Pass
 Click on delete	Records Deleted Successfully 	Records Deleted Successfully	Pass
 
 # 5_Report
+Output of this program 
+Enter User name = usern
+Enter password= passn
+---------- LogIN Successfually-------
+:::::::::::::::::::::::::::::::::::
+        :PERSONAL DIARY MANAGEMENT SYSTEM: 
+        :::::::::::::::::::::::::::::::::::
+
+                :MAIN MENU:
+
+  :::::::::::::::::::::::::::
+                : WELCOME TO THE ADD MENU :
+                :::::::::::::::::::::::::::
+		
+        ENTER DATE OF YOUR RECORD:[yyyy-mm-dd]:2021-11-23
+
+
+
+                :MAIN MENU:
+
+        Press <1> To  Write Note
+        Press <2> Show Records
+        Press <3> To EDIT RECORDS
+        Press <4> To DELETE RECORD
+        Press <5> To EDIT PASSWORD
+        Press <6> To EXIT
+
+        Current date and time : Thu Nov 25 12:27:24 2021
+
+
+        ENTER YOUR CHOICE:daily things
+
 
 # 6_StandupCall
+Ask or create issuess we have any doubt and error problems ..
