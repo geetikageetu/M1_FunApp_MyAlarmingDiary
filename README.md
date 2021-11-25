@@ -1,11 +1,24 @@
 # M1_FunApp_MyAlarmingDiary
 In this console application, you can add, view, edit and delete records. Records can be added with many information such as duration of task, name, address, time and date. File handling has been effectively used to keep the records.
+#Research Diary Studies in Organizational Research.An Introduction and Some Practical Recommendations,The most common method used in work and organizational psychology is certainly the cross-sectional design based on self-report questionnaires. Such designs have been used to study concepts such as job attitudes, personality, or work characteristics, to mention just a few. Studies using this design have in common that the unit of analysis is the person. Higher order units of analysis could be the team or the organization. If the person is the unit of analysis, then the statistical analyses are based on the differences between persons (i.e., their working conditions, attitudes, personalities, etc.), that is, interindividual variation. An underlying assumption in these studies is that the investigated constructs have some stability over time. This assumption is sometimes a problem since some of the constructs researchers are interested in lack stability. If the behavior, however,
+is highly fluctuating and strongly dependent upon situational conditions, then the results of such a study are highly questionable. Furthermore, short-term fluctuations cannot be examined.
 
 # 1_Requirement
-*personal Use:User can use it for their daily personal use . He can write or save daily tasks and meeting.
-*For maintaining data: we can use it to save our monthly expenses.Grosarry or paying bills data .
-*Office work: we can maintain or office credentials .
-*important data : students, adults can use it for inhence thair hobbies with security so no one can see their info .
+
+#4W_1H
+	#What : This is a diary management system . I have created some function to add, create,view,delete  to rocord. We han add our current time and date to the note.
+	#why: *User can use it for their daily personal use . He can write or save daily tasks and meeting.
+               : we can use it to save our monthly expenses.Grosarry or paying bills data .
+               : we can maintain or office credentials .
+               : students, adults can use it for inhence thair hobbies with security so no one can see their info .
+        #Where  *personal Use:	
+               *For maintaining data
+               *Office work
+              *important data
+       #When:   We can use it by any time . we just need to the valid credentials and procced to activity.
+       #How : Enter user name and password and start activity.
+       
+ 
 
 # 2_Design
 In this we need to have log in Account . We use file management system to save our files and racod.
