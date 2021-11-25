@@ -1295,11 +1295,21 @@ void deleterecord( )
 }
 
 # 4_TestPlan
-Test no  |Test name   |Proceed   |Expected   |Actual   |(pass/fail)
-|---|---|---|---|---|
-|Log In    |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+Test no	Test name	Proceed 	Expected	Actual	(Pass/Fail)
+*1)T_1	Log In 
+
+
+	Enter user name
+Enter Password	Log in successfully	Log in successfully	Pass
+	Log In 
+	Enter wrong user name or
+Enter  wrong Password	Wrong User name or password 	Wrong User name or password	Pass
+*T_2	Add Records	Enter the record	Records Entered Successfully 	Records Entered Successfully	Pass
+*T_3	Open Records	Select folder
+Click on ok	Show Records	Show Records	Pass
+*T_4	Delete Records	Select file.
+Click on delete	Records Deleted Successfully 	Records Deleted Successfully	Pass
+
 # 5_Report
 
 # 6_StandupCall
