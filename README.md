@@ -30,12 +30,12 @@ is highly fluctuating and strongly dependent upon situational conditions, then t
 In this we need to have log in Account . We use file management system to save our files and racod.
 we will use google calander  as to create a to do list.
 The basic user-defined functions used in this project are listed below:
-int password() – contains/manages/handles password protection
-void addrecord() – to add new diary record
-void viewrecord() – to view added record in list
-void editrecord() – to modify and update an added record
-void editpassword() – to modify/change a password
-void deleterecord() – to delete or remove a record permanently from system file.
+# int password() – contains/manages/handles password protection
+# void addrecord() – to add new diary record
+# void viewrecord() – to view added record in list
+# void editrecord() – to modify and update an added record
+# void editpassword() – to modify/change a password
+# void deleterecord() – to delete or remove a record permanently from system file.
 # 3_Implementation
 #include"stdio.h"
 #include"stdlib.h"
