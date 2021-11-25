@@ -1,4 +1,17 @@
 
+#LOGIN FUNCTION
+I have created  a log in function to create the log in credentials . 
+User need to Enter user name and password .
+With correct credentials user can log in easily and procceed for next step.
+ 
+#int password() – contains/manages/handles password protection.
 
+#void addrecord() – to add new diary record.
 
-![alt text](https://Use-Case-Diagram-for-Mobile-Diary.png)
+#void viewrecord() – to view added record in list.
+
+#void editrecord() – to modify and update an added record.
+
+#void editpassword() – to modify/change a password.
+
+#void deleterecord() – to delete or remove a record permanently from system file.
